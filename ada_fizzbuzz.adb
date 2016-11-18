@@ -14,7 +14,7 @@ begin
       elsif N mod 3 = 0 then
         Put_Line("Fizz");
       else
-        Put(N, 1);
+        Put(N, 1); -- Print non FizzBuzz integer with width of 1 space
         New_Line;
       end if;
       N := N + 1;
