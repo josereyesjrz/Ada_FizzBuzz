@@ -1,0 +1,9 @@
+# Finder stuff
+*.DS_Store
+
+# GNAT and linker stuff
+*.ali
+*.o
+
+# executable
+ada_fizzbuzz
