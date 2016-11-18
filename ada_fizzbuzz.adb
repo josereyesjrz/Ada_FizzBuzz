@@ -14,7 +14,7 @@ begin
 			elsif N mod 3 = 0 then
 				Put_Line("Fizz");
 			else
-				Put(N);
+				Put(N, 1);
 				New_Line;
 			end if;
 			N := N + 1;
